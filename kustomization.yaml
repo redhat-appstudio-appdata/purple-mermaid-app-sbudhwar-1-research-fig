@@ -2,6 +2,7 @@ bases:
 - components/basic-node-js/base
 - components/basic-quarkus/base
 - components/basic-spring-boot/base
+- components/demo-latest-2/base
 - components/demo-latest/base
 - components/java-springboot-23/base
 - components/java-springboot/base
