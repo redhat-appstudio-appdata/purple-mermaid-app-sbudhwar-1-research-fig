@@ -12,8 +12,8 @@ metadata:
   namespace: sbudhwar-1
 spec:
   ports:
-  - port: 8081
-    targetPort: 8081
+  - port: 8080
+    targetPort: 8080
   selector:
     app.kubernetes.io/instance: demo-latest
 status:
