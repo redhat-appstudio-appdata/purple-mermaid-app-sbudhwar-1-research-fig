@@ -46,6 +46,6 @@ spec:
             port: 8080
         resources:
           requests:
-            cpu: "4"
-            memory: 761Mi
+            cpu: "6"
+            memory: 770Mi
 status: {}
