@@ -11,7 +11,7 @@ metadata:
   name: java-springboot-23
   namespace: sbudhwar-1
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app.kubernetes.io/instance: java-springboot-23
@@ -26,6 +26,8 @@ spec:
       - env:
         - name: DEBUG_PORT
           value: "5858"
+        - name: A
+          value: B
         image: quay.io/redhat-appstudio/user-workload:sbudhwar-1-java-springboot-23
         imagePullPolicy: Always
         livenessProbe:
@@ -44,6 +46,6 @@ spec:
             port: 8080
         resources:
           requests:
-            cpu: "0"
-            memory: 768Mi
+            cpu: "4"
+            memory: 761Mi
 status: {}
