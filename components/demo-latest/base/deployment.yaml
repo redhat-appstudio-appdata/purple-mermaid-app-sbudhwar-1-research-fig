@@ -26,7 +26,7 @@ spec:
       - env:
         - name: C
           value: D
-        image: quay.io/sbudhwar/demo:latest
+        image: quay.io/redhat-appstudio/user-workload:sbudhwar-1-demo-latest
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
